@@ -37,7 +37,7 @@ public:
             }
         }
         if(isRunning) {
-            throw invalid_argument("Error from CPU : No C000 instruction to stop execution!");
+            cerr << "Warning from CPU : No C000 instruction to stop execution!";
         }
     }
 
